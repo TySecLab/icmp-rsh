@@ -10,3 +10,8 @@ icmp-rsh 是一个使用 icmp 协议直连的 remote shell 工具
 ## Todo
 + icmp 反弹的模式，从服务端发起请求
 + 未来可能加入 FEC 和 ARQ 协议，在实现可靠传输的基础上，实现文件上传/下载功能
+
+## Usege
+直连模式：
+> ./server
+> ./client [dest-ip]
