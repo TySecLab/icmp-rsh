@@ -7,6 +7,9 @@ icmp-rsh 是一个使用 icmp 协议直连的 remote shell 工具
 + 支持 Windows 系统和常用的 linux 发行版：CentOS、Ubuntu、kali
 + 支持多个客户端访问服务端
 
+## Build
+使用 Visual Studio 2019 编译
+
 ## Todo
 - [ ] 反弹模式
 - [ ] 加入 FEC 和 ARQ 协议，实现可靠传输
